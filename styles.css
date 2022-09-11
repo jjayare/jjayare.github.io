@@ -107,6 +107,8 @@ a[href="pcmanremake.html"] {
        background-color: white;
        height:600px;
 	   color:white;
+	   border: 2px solid white;
+	   
 }
 h2{
        text-decoration:none;
