@@ -27,16 +27,18 @@ a[href="pcmanremake.html"] {
 				margin: auto;
 				text-align:center;
 				height:20px;
-				
+				float:left;
+				width:100%;
 			}
 	div {
 		background-color: black;
-		/*width: 600px; */
+		width: 400px; 
 		height: 400px; 		
 		padding: 5px; 
 		margin:auto;
 		color:white;
-		
+		border:2px solid white;
+		float: left;
 		
 		}
 		table {
@@ -66,7 +68,8 @@ a[href="pcmanremake.html"] {
 			font-size:24px;
 			background-color: orange;
 			
-			float:center;
+			float:left;
+			clear:left;
 			
 		}
 		button:hover {
@@ -102,13 +105,13 @@ a[href="pcmanremake.html"] {
 			text-align:center;
 		}
 
-#servMain {
-       width:640px;
+#servMain, #servMain2 {
+       width:200px;
        background-color: white;
        height:600px;
 	   color:white;
 	   border: 2px solid white;
-	   
+	   float:left;
 }
 h2{
        text-decoration:none;
