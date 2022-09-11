@@ -1,0 +1,88 @@
+h1{
+				color: red;
+				text-align: center;
+			}
+a{
+				text-align: center;
+				color: blue;
+			} 
+a[href="pcmanremake.html"] {
+			color:red;
+}
+			
+.nav_bar{
+				margin: auto;
+				text-align:center;
+				height:25px;
+				
+			}
+	div {
+		background-color: orange;
+		width: 600px;
+		height: 400px; 		
+		padding: 20px; 
+		margin:auto;
+		
+		
+		
+		}
+		table {
+			
+			border: 1px solid black;
+			border-collapse; collapse;
+		}
+		td, th {
+			
+			border: 1px solid black;
+			padding: 5px;
+		}
+		#foo {
+			color:purple;
+		}
+		.baz {
+			color: green;
+		}
+		.carusel {
+			background-color:green;
+		}
+		button{
+			width:200px;
+			height:50px;
+			font-size:24px;
+			background-color: orange;
+			
+			float:center;
+			
+		}
+		button:hover {
+			background-color: red;
+		}
+		#container {
+			
+			display: flex;
+			flex-wrap: wrap;
+			
+		}
+		#container > div {
+			background-color: springgreen;
+			font-size: 20px;
+			margin: 20px;
+			padding: 20px;
+			width:200px;
+		}
+		#grid{
+			background-color:green;
+			display:grid;
+			padding:20px;
+			grid-column-gap: 20px;
+			grid-row-gap:10px;
+			grid-template-columns: 200px 200px auto;
+		}
+		
+		.grid-item {
+			
+			background-color:white;
+			font-size: 20px;
+			padding:20px;
+			text-align:center;
+		}
