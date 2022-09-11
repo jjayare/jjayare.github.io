@@ -1,11 +1,13 @@
 h1{
 				color: red;
 				text-align: center;
-				font-size: 400%;
+				font-size: 80px;
+				background-color:black;
 			}
 a{
 				text-align: center;
 				color: blue;
+				text-decoration:none;
 			} 
 a[href="pcmanremake.html"] {
 			color:red;
