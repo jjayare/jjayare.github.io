@@ -101,3 +101,9 @@ a[href="pcmanremake.html"] {
 			padding:20px;
 			text-align:center;
 		}
+
+.servMain {
+       width:640px;
+       Background-color: white;
+       height:80px;
+}
