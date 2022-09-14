@@ -38,7 +38,7 @@ a[href="pcmanremake.html"] {
 		margin:auto;
 		color:white;
 		border:2px solid white;
-		float: left;
+		float: inherit;
 		
 		}
 		table {
@@ -120,5 +120,5 @@ h2{
 #aboutMain {
 	background-color:green;
 	height:400px;
-	
+	float:none;
 }
