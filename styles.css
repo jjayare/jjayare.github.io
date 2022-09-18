@@ -29,7 +29,14 @@ a[href="pcmanremake.html"] {
 				height:20px;
 				float:left;
 				width:100%;
+				background-color:white;
+				border:12px solid red; 
+				border-radius: 15px;
 			}
+			
+img {
+	box-shadow: 10px 10px 15px grey;
+}
 	div {
 		background-color: black;
 		width: 400px; 
@@ -37,10 +44,17 @@ a[href="pcmanremake.html"] {
 		padding: 5px; 
 		margin:auto;
 		color:white;
-		border:2px solid white;
+	
+	
 		float: inherit;
 		
 		}
+ .hello_world{
+	 text-align:center;
+	 color:purple;
+	 font-family:'caveat';
+	 font-size:40px;
+}
 		table {
 			
 			border: 1px solid black;

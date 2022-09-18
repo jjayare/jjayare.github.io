@@ -6,9 +6,16 @@
 		</title>
 		<link rel="stylesheet" href="styles.css" >
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<script>
+			function changeTitle() {
+			var title = document.querySelector('#new_name');
+			title.innerHTML = "<br>DeeAniRemy Global Unlocks LLC!";
+			}
+		</script>
 	</head>
 	<body>
-		<h1> PC Man Repairs LLC Remake!! </h1>
+		<h1 id="new_name"> PC Man Repairs LLC Remake!! </h1>
 			<div class="nav_bar"> 
 				<a href="index.html">HOME </a >|
 				<a href="services.html">Services </a >|
@@ -20,18 +27,18 @@
 			</div>
 			<br>
 			<div class="aboutMain">
-					PC Man Repairs LLC is now DeeAniRemy Global Unlocks<br>
+					<p>We are only available on mobile service basis!</p><br>
 					<br><br>
-					Thank you for joining us! We will slightly 
+				<p >	Thank you for joining us! We will slightly 
 					be transitioning from PC Man Repairs LLC to 
-					DeeAniRemy Global Unlocks LLC Soon!!					<!--<img src="pics\2.jpg" alt="Cat" height="290" width="150" />
+					DeeAniRemy Global Unlocks LLC Soon!!		</p>			<!--<img src="pics\2.jpg" alt="Cat" height="290" width="150" />
 					<img src="pics\1.jpg" alt="Cat" height="290" width="150" />
 					<img src="pics\3.jpg" alt="Cat" height="290" width="150" />
 					<img src="cat.jpg" alt="Cat" height="50" width="30" />
 					<img src="cat.jpg" alt="Cat" height="50" width="30" />*/ -->
 			</div>
 			
-			
+			<button onclick="changeTitle();"> Click me to know new name </button>
 		
 		
 	</body>
