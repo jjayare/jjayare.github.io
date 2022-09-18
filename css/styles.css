@@ -238,7 +238,7 @@ textarea{
 
 .homeCont{
 	width:28%;
-	height: 50px;
+	height: 200px;
 	background-color:white;
 	border: 1px solid red;
 	
@@ -252,4 +252,8 @@ textarea{
 .homeCont h3 {
 	color:red;
 	text-align:center;
+}
+.homeCont h4{
+	text-align:left;
+	color:black;
 }
