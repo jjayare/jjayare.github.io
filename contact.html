@@ -6,6 +6,8 @@
 		</title>
 		<link rel="stylesheet" href="css/styles.css" >
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<script src="js/validate.js">  </script
 	</head>
 	<body>
 		<h1> PC Man Repairs LLC Remake!! </h1>
@@ -19,30 +21,72 @@
 			<a href="location.html">Location</a>
 			</div>
 			<br>
-			<div class="contForm">
-					<p> Hello world,Please leave your name phone and email and someone will get back to you!!</p><br>
+			<h1> Contact Form</h1>
+					<p style="text-align:center"> Hello world,Please leave your name email and message. Someone will get back to you!!</p><br>
 					<br><br>
-					<lable id="cname" >Name:</lable><input type="text" name="name" id="name" /><br>
-					<lable id="cnumber" >Phone:</lable><input type="text" name="cnumber" id="cnumber" /><br>
-					<lable id="cemail" >Email:</lable><input type="text" name="cemail" id="cemail" />
-						<br>	<input type="button" id="contFormButton" value="Submit" action="" ></button>
+		<form name="myForm" action="" onsubmit="return validateForm()" method="post">
+			<table class="form-style">
+				<tr>
+					<td>
+						<label>Your name <span class="required">*</span> </label>
+                 
+					</td>
+					<td>
+							<input type="text" name="name" class="long"/>
+						<span class="error" id="errorname"></span>
+					</td>
+				</tr>
+			<tr>
+				   <td>
+					  <label>
+						Your email address <span class="required">*</span>
+					  </label>
+				   </td>
+				   <td>
+					  <input type="email" name="email" class="long"/>
+					  <span class="error" id="erroremail"></span>
+				   </td>
+            </tr>
+            <tr>
+					   <td>
+						  <label>
+							 Message <span class="required">*</span>
+						  </label>
+					   </td>
+					   <td>
+						  <textarea name="message" class="long field-textarea"></textarea>
+						  <span class="error" id="errormsg"></span>
+					   </td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>
+                  <input type="submit" value="Send">      
+                  <input type="reset" value="Reset"> 
+               </td>
+            </tr>
+         </table>
+      </form>
+				
+					
+						<br>	<!--<input type="button" id="contFormButton" value="Submit" action="" ></button>-->
 					
 					
-					<p> <u> Please allow 48 hrs for someone to get back to you thank you!!</u>
+					<p style="text-align:center"> <u> Please allow 48 hrs for someone to get back to you thank you!!</u>
 					
 					</p>
 						
 		
 					
 					
-			</div>
+			
 			
 			<div id="footer">
 			
 			 
 				<a href="index.html">HOME </a >|
 				<a href="services.html">Services </a >|
-								<a href="product.html">Products </a >|
+				<a href="product.html">Products </a >|
 				<a href="unlock.html">Unlocks</a >|
 				<a href="contact.html">Contact </a>|
 				<a href="about.html">About Us </a>|
