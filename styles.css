@@ -1,5 +1,6 @@
 body {
-	background-color: black;
+	background-color: white;
+	color:black;
 	
 }
 
@@ -33,21 +34,40 @@ a[href="pcmanremake.html"] {
 				border:12px solid red; 
 				border-radius: 15px;
 			}
+#footer {
+				
+			margin: auto;
+				text-align:center;
+				height:20px;
+				float:left;
+				width:100%;
+				background-color:white;
+				border:12px solid red; 
+				border-radius: 15px;
+}
 			
 img {
 	box-shadow: 10px 10px 15px grey;
 }
-	div {
+div {
 		background-color: black;
 		width: 400px; 
-		height: 400px; 		
+			
 		padding: 5px; 
 		margin:auto;
-		color:white;
+		
 	
 	
 		float: inherit;
 		
+		}
+		
+		.footer{
+			
+			width:100%;
+			height:40px;
+			background-color: orange;
+			text-align:center;
 		}
  .hello_world{
 	 text-align:center;
