@@ -3,7 +3,7 @@ function validateForm()
 { 
     var name = document.forms["myForm"]["name"];               
     var email = document.forms["myForm"]["email"];    
-    var message = document.forms["myForm"]["message"];   
+    var mess = document.forms["myForm"]["mess"];   
    
     if (name.value == "")                                  
     { 
@@ -37,16 +37,16 @@ function validateForm()
         return false; 
     } 
    
-    if (message.value == "")                           
+    if (mess.value == "")                           
     {
         document.getElementById('errormsg').innerHTML="Please enter a valid message"; 
-        message.focus(); 
+        mess.focus(); 
         return false; 
     }else{
         document.getElementById('errormsg').innerHTML="";  
     }
    
-    return emailDetails(name, email, message, demo); 
+    return emailDetails(name, email, mess, demo); 
 
 
 
@@ -58,7 +58,7 @@ function validateForm()
 
 
 
-function emailDetails(name, email, message, demo){
+function emailDetails(name, email, mess, demo){
 	
 /* var name = 	document.getElementsByName('name').innerHTML;
 var email = document.getElementsByName('email').innerHTML ;
@@ -66,10 +66,10 @@ var message = 	document.getElementsByName("message").innerHTML ;
  */
   var name=document.getElementById("name").value;
     var email=document.getElementById("email").value;
-	  var message=document.getElementById("message").value;
+	  var mess=document.getElementById("mess").value;
 var demo = document.getElementById("demo").value;
 	
-	return sendEmail(name, email, message, demo);
+	return sendEmail(name, email, mess, demo);
 	
 }
 
@@ -77,16 +77,15 @@ var demo = document.getElementById("demo").value;
 
 
 
-function sendEmail(name, email, message, demo) {
+function sendEmail(name, email, mess, demo) {
 	Email.send({
-				Host: "smtp.gmail.com",
+				Host: "smtp.elasticemail.com",
 				Username : "pcmanrepairs0@gmail.com",
-				Password : "Knowlele11",
+				Password : "9BFBE34040F89D5E5A76ADBC5A0BE8040A9B",
 				To : "pcmanrepairs0@gmail.com",
 				From : email,
 				Subject : name,
-				Body : demo + message
-				}).then(
-		message => alert("mail from  "+ email + " sent successfully"));
+				Body : demo + mess
+				}).then( function (message) {alert("mail from  "+ email + message + " sent successfully");})
 	
 }
