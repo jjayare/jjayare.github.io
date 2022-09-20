@@ -1,4 +1,4 @@
-function validateForm()                                    
+/* function validateForm()                                    
 { 
     var name = document.forms["myForm"]["name"];               
     var email = document.forms["myForm"]["email"];    
@@ -46,4 +46,4 @@ function validateForm()
     }
    
     return true; 
-}
+} */
