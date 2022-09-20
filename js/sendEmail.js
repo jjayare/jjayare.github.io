@@ -67,7 +67,7 @@ var message = 	document.getElementsByName("message").innerHTML ;
   var name=document.getElementById("name").value;
     var email=document.getElementById("email").value;
 	  var mess=document.getElementById("mess").value;
-var demo = document.getElementById("demo").value;
+var demo = document.getElementById("demo").innerHTML;
 	
 	return sendEmail(name, email, mess, demo);
 	
