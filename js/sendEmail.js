@@ -86,6 +86,9 @@ function sendEmail(name, email, mess, demo) {
 				From : "pcmanrepairs0@gmail.com",
 				Subject : name,
 				Body : demo +" " +email + " " + 		mess
+
+		
+
 				}).then( function (message) {alert("mail from  "+ email + message + " sent successfully");})
 	
 }
