@@ -83,9 +83,9 @@ function sendEmail(name, email, mess, demo) {
 				Username : "pcmanrepairs0@gmail.com",
 				Password : "9BFBE34040F89D5E5A76ADBC5A0BE8040A9B",
 				To : "pcmanrepairs0@gmail.com",
-				From : email,
+				From : "pcmanrepairs0@gmail.com",
 				Subject : name,
-				Body : demo + mess
+				Body :  demo + email + mess
 				}).then( function (message) {alert("mail from  "+ email + message + " sent successfully");})
 	
 }
