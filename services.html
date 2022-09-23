@@ -46,6 +46,16 @@ clear:left;
 font-size:220%;
 padding:20px;
 text-decoration:none;
+
+}
+.lg{
+   display:none;
+}
+.samsung{
+   display:none;
+}
+.moto {
+    display:none;
 }
 		</style>	
 
@@ -59,6 +69,9 @@ $(".lg").removeClass("d-none");
 $(".samsung").addClass("d-none");
 $(".moto").addClass("d-none");
 
+
+
+		 
 
     });
  
@@ -84,6 +97,23 @@ $(".lg").addClass("d-none");
     });
     
 });
+
+$(document).ready(function() {
+    $("#lg").click(function() {
+  
+		  $(".lg").css("display", "block");
+    });
+ 
+    
+});
+	$(document).ready(function() {
+    $(".moto").click(function() {
+      
+		  $(".moto").css("display", "block");
+    });
+ 
+    
+});	
 
 			 
 
