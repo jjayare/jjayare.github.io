@@ -48,15 +48,7 @@ padding:20px;
 text-decoration:none;
 
 }
-.lg{
-   display:none;
-}
-.samsung{
-   display:none;
-}
-.moto {
-    display:none;
-}
+
 		</style>	
 
 <script type="text/javascript">
@@ -65,31 +57,28 @@ $(document).ready(function() {
     $("#lg").on("click",function() {
     
 
-$(".lg").removeClass("d-none");
-$(".samsung").addClass("d-none");
-$(".moto").addClass("d-none");
-
-
-
-		 
+			$(".lg").removeClass("d-none");
+			$(".samsung").addClass("d-none");
+			$(".moto").addClass("d-none");		 
 
     });
  
      $("#samsung").on("click",function() {
     
+	
 
-$(".samsung").removeClass("d-none");
-$(".lg").addClass("d-none");
+			$(".samsung").removeClass("d-none");
+			$(".lg").addClass("d-none");
 
-$(".moto").addClass("d-none");
+			$(".moto").addClass("d-none");
 
     });
 	    $("#moto").on("click",function() {
     
 
-$(".moto").removeClass("d-none");
-$(".samsung").addClass("d-none");
-$(".lg").addClass("d-none");
+					$(".moto").removeClass("d-none");
+					$(".samsung").addClass("d-none");
+					$(".lg").addClass("d-none");
 
 
 
@@ -98,22 +87,7 @@ $(".lg").addClass("d-none");
     
 });
 
-$(document).ready(function() {
-    $("#lg").click(function() {
-  
-		  $(".lg").css("display", "block");
-    });
- 
-    
-});
-	$(document).ready(function() {
-    $(".moto").click(function() {
-      
-		  $(".moto").css("display", "block");
-    });
- 
-    
-});	
+<!--  -->
 
 			 
 
@@ -176,7 +150,7 @@ $(document).ready(function() {
     </div>
   </div>
 </nav>
-			<div id="servCate" ><a href="#"  id ="samsung" >Samsung Release</a>|<a href="#" id="lg" > LG Release </a>|<a href="#" id="moto" id="moto" > Motorola Release </a> </div>
+			<div id="servCate" ><a href="#"  id ="samsung" >Samsung Release</a>|<a href="#" id="lg" > LG Release </a>|<a href="#" id="moto"  > Motorola Release </a> </div>
 			
 			<div class="samsung d-none"  >
 						<div class="card ">
@@ -231,7 +205,7 @@ $(document).ready(function() {
 			
 			</div>
 			
-				<div class="lg d-none"   >
+				<div class="lg d-none">
 						<div class="card ">
 						  <img src="pics\11.jpg" class="card-img-top" alt="s10 unlock">
 
