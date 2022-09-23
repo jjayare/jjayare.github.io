@@ -52,29 +52,39 @@ text-decoration:none;
 <script type="text/javascript">
 
 $(document).ready(function() {
-    $("#samsung").click(function() {
+    $("#lg").on("click",function() {
     
-		  $(".samsung").css("display", "none");
+
+$(".lg").removeClass("d-none");
+$(".samsung").addClass("d-none");
+$(".moto").addClass("d-none");
+
+
     });
  
+     $("#samsung").on("click",function() {
+    
+
+$(".samsung").removeClass("d-none");
+$(".lg").addClass("d-none");
+
+$(".moto").addClass("d-none");
+
+    });
+	    $("#moto").on("click",function() {
+    
+
+$(".moto").removeClass("d-none");
+$(".samsung").addClass("d-none");
+$(".lg").addClass("d-none");
+
+
+
+
+    });
     
 });
-$(document).ready(function() {
-    $("#lg").click(function() {
-  
-		  $(".lg").css("display", "none");
-    });
- 
-    
-});
-	$(document).ready(function() {
-    $(".moto").click(function() {
-      
-		  $(".moto").css("display", "none");
-    });
- 
-    
-});	
+
 			 
 
  </script>
@@ -136,9 +146,9 @@ $(document).ready(function() {
     </div>
   </div>
 </nav>
-			<div id="servCate" ><a href=""  id ="samsung" >Samsung Release</a>|<a href="" id="lg" > LG Release </a>|<a href="" id="moto" id="moto" > Motorola Release </a> </div>
+			<div id="servCate" ><a href="#"  id ="samsung" >Samsung Release</a>|<a href="#" id="lg" > LG Release </a>|<a href="#" id="moto" id="moto" > Motorola Release </a> </div>
 			
-			<div class="samsung" id="samsung" >
+			<div class="samsung d-none"  >
 						<div class="card ">
 						  <img src="pics\4.jpg" class="card-img-top" alt="s10 unlock">
 
@@ -191,7 +201,7 @@ $(document).ready(function() {
 			
 			</div>
 			
-				<div class="lg" id="lg"  >
+				<div class="lg d-none"   >
 						<div class="card ">
 						  <img src="pics\11.jpg" class="card-img-top" alt="s10 unlock">
 
@@ -225,7 +235,7 @@ $(document).ready(function() {
 					
 			
 			</div>
-				<div class="moto" id="moto"  >
+				<div class="moto d-none"  >
 						<div class="card ">
 						  <img src="pics\4.jpg" class="card-img-top" alt="s10 unlock">
 
