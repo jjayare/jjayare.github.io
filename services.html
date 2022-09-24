@@ -59,7 +59,8 @@ $(document).ready(function() {
 
 			$(".lg").removeClass("d-none");
 			$(".samsung").addClass("d-none");
-			$(".moto").addClass("d-none");		 
+			$(".moto").addClass("d-none");	
+	        $("imeirepair").addClass("d-none");
 
     });
  
@@ -71,6 +72,7 @@ $(document).ready(function() {
 			$(".lg").addClass("d-none");
 
 			$(".moto").addClass("d-none");
+			$(".imeirepair").addClass("d-none");
 
     });
 	    $("#moto").on("click",function() {
@@ -79,7 +81,19 @@ $(document).ready(function() {
 					$(".moto").removeClass("d-none");
 					$(".samsung").addClass("d-none");
 					$(".lg").addClass("d-none");
+					$(".imeirepair").addClass("d-none");
 
+
+
+    });
+	
+		    $("#imeirepair").on("click",function() {
+    
+
+					$(".imeirepair").removeClass("d-none");
+					$(".samsung").addClass("d-none");
+					$(".lg").addClass("d-none");
+					$(".moto").addClass("d-none");
 
 
 
@@ -260,6 +274,23 @@ $(document).ready(function() {
 						  <div class="card-body">
 							<h5 class="card-title">Motorola Instant Usb Unlock</h5>
 							<p class="card-text">USB remote unlock service <br>49.99usd</p>
+							<a href="services.html" class="btn btn-primary">Buy Now</a>
+						  </div>
+						</div>
+			
+			
+			
+					
+					
+			
+			</div>
+				<div class="imeirepair d-none"  >
+						<div class="card ">
+						  <img src="pics\20.jpg" class="card-img-top" alt="imei repairs">
+
+						  <div class="card-body">
+							<h5 class="card-title">Imei Repairs </h5>
+							<p class="card-text">USB remote unlock service <br>279.99usd</p>
 							<a href="services.html" class="btn btn-primary">Buy Now</a>
 						  </div>
 						</div>
