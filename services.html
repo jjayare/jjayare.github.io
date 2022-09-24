@@ -63,6 +63,8 @@ $(document).ready(function() {
 	        $("imeirepair").addClass("d-none");
 			$(".frpunlock").addClass("d-none");
 			$(".appidunlock").addClass("d-none");
+			$(".motoimeirepairs").addClass("d-none");
+			$(".lgimeirepairs").addClass("d-none");
 
     });
  
@@ -77,6 +79,9 @@ $(document).ready(function() {
 			$(".imeirepair").addClass("d-none");
 				$(".frpunlock").addClass("d-none");
 				$(".appidunlock").addClass("d-none");
+				$(".simeirepairs").addClass("d-none");
+				$(".motoimeirepairs").addClass("d-none");
+				$(".lgimeirepairs").addClass("d-none");
 
     });
 	    $("#moto").on("click",function() {
@@ -88,6 +93,9 @@ $(document).ready(function() {
 					$(".imeirepair").addClass("d-none");
 					$(".frpunlock").addClass("d-none");
 					$(".appidunlock").addClass("d-none");
+					$(".simeirepairs").addClass("d-none");
+					$(".motoimeirepairs").addClass("d-none");
+					$(".lgimeirepairs").addClass("d-none");
 
 
 
@@ -102,6 +110,9 @@ $(document).ready(function() {
 					$(".moto").addClass("d-none");
 					$(".frpunlock").addClass("d-none");
 					$(".appidunlock").addClass("d-none");
+					$(".simeirepairs").addClass("d-none");
+					$(".motoimeirepairs").addClass("d-none");
+					$(".lgimeirepairs").addClass("d-none");
 
 
 
@@ -115,6 +126,9 @@ $(document).ready(function() {
 					$(".moto").addClass("d-none");
 					$(".imeirepair").addClass("d-none");
 					$(".appidunlock").addClass("d-none");
+					$(".simeirepairs").addClass("d-none");
+					$(".motoimeirepairs").addClass("d-none");
+					$(".lgimeirepairs").addClass("d-none");
 
 
 
@@ -127,10 +141,48 @@ $(document).ready(function() {
 					$(".lg").addClass("d-none");
 					$(".moto").addClass("d-none");
 					$(".imeirepair").addClass("d-none");
+					$(".simeirepairs").addClass("d-none");
+					$(".motoimeirepairs").addClass("d-none");
+					$(".lgimeirepairs").addClass("d-none");
 
 
 
     });
+	 $("#simeirepairs").on("click",function() {
+    
+					$(".simeirepairs").removeClass("d-none");
+					$(".lgimeirepairs").addClass("d-none");
+					$(".motoimeirepairs").addClass("d-none");
+					$(".imeirepair").addClass("d-none");
+				
+
+
+
+    });
+	$("#lgimeirepairs").on("click",function() {
+    
+					$(".lgimeirepairs").removeClass("d-none");
+					$(".simeirepairs").addClass("d-none");
+					$(".motoimeirepairs").addClass("d-none");
+						$(".imeirepair").addClass("d-none");
+				
+
+
+
+    });
+		$("#motoimeirepairs").on("click",function() {
+    
+					$(".motoimeirepairs").removeClass("d-none");
+					$(".simeirepairs").addClass("d-none");
+					$(".lgimeirepairs").addClass("d-none");
+						$(".imeirepair").addClass("d-none");
+				
+
+
+
+    });
+	
+	
     
 });
 
@@ -318,23 +370,25 @@ $(document).ready(function() {
 			
 			</div>
 				<div class="imeirepair d-none"  >
-				<a href="#"  id ="simeirepairs" >Samsung Imei Repairs</a>|<a href="#" id="lgimeirepairs" > LG Imei Repairs </a>
+				<a href="#"  id ="simeirepairs" >Samsung Imei Repairs</a>|<a href="#" id="lgimeirepairs" > LG Imei Repairs </a>|<a href="#" id="motoimeirepairs" >Motorola Imei Repairs </a>
 				
 				
 						<div class="card ">
 						  <img src="pics\20.jpg" class="card-img-top" alt="imei repairs">
 
 						  <div class="card-body">
-							<h5 class="card-title">Imei Repairs </h5>
+							<h5 class="card-title">Samsung S22 Imei Repair </h5>
 							<p class="card-text">USB remote unlock service <br>279.99usd</p>
 							<a href="services.html" class="btn btn-primary">Buy Now</a>
 						  </div>
 						</div>
 			
 			
+				
+			
 			
 					
-					g
+					
 			
 			</div>
 				<div class="frpunlock d-none"  >
@@ -347,6 +401,68 @@ $(document).ready(function() {
 						  <div class="card-body">
 							<h5 class="card-title">Galaxy s20 FRP unlock </h5>
 							<p class="card-text">USB remote unlock service <br>49.99usd</p>
+							<a href="services.html" class="btn btn-primary">Buy Now</a>
+						  </div>
+						</div>
+			
+			
+			
+					
+					
+			
+			</div>
+			
+			<div class="lgimeirepairs d-none"  >
+				<a href="#"  id ="simeirepairs" >Samsung Imei Repairs</a>|<a href="#" id="lgimeirepairs" > LG Imei Repairs </a>|<a href="#" id="motoimeirepairs" > Motorola Imei Repairs </a>
+				
+				
+						<div class="card ">
+						  <img src="pics\25.jpg" class="card-img-top" alt="imei repairs">
+
+						  <div class="card-body">
+							<h5 class="card-title">Lg Imei Repairs </h5>
+							<p class="card-text">USB remote unlock service for Lg Imeir <br>49.99usd</p>
+							<a href="services.html" class="btn btn-primary">Buy Now</a>
+						  </div>
+						</div>
+			
+			
+			
+					
+					
+			
+			</div>
+				<div class="motoimeirepairs d-none"  >
+				<a href="#"  id ="simeirepairs" >Samsung Imei Repairs</a>|<a href="#" id="lgimeirepairs" > LG Imei Repairs </a>|<a href="#" id="motoimeirepairs" >Motorola Imei Repairs </a>
+				
+				
+						<div class="card ">
+						  <img src="pics\24.jpg" class="card-img-top" alt="imei repairs">
+
+						  <div class="card-body">
+							<h5 class="card-title">Motorola Imei Repairs </h5>
+							<p class="card-text">USB remote unlock service for motorola <br>49.99usd</p>
+							<a href="services.html" class="btn btn-primary">Buy Now</a>
+						  </div>
+						</div>
+			
+			
+			
+					
+					
+			
+			</div>
+				<div class="simeirepairs d-none"  >
+				<a href="#"  id="simeirepairs" >Samsung Imei Repairs</a>|<a href="#" id="lgimeirepairs" > LG Imei Repairs </a>|<a href="#" id="motoimeirepairs" > Motorola Imei Repairs </a>
+				
+				
+						
+						<div class="card ">
+						  <img src="pics\20.jpg" class="card-img-top" alt="imei repairs">
+
+						  <div class="card-body">
+							<h5 class="card-title">Samsung S22 Imei Repair </h5>
+							<p class="card-text">USB remote unlock service <br>279.99usd</p>
 							<a href="services.html" class="btn btn-primary">Buy Now</a>
 						  </div>
 						</div>
