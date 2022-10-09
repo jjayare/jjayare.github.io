@@ -257,14 +257,32 @@ $(document).ready(function() {
 			</div>
 			
 			<div class="samsung d-none"  >
-						<div class="card ">
-						  <img src="pics\4.jpg" class="card-img-top" alt="s10 unlock">
+							<div class="card" data-name="s10unlock" data-price="29.99">
+												<img src="pics\4.jpg" class="card-img-top" alt="s10 unlock">
 
-						  <div class="card-body">
-							<h5 class="card-title">Samsung s10 network unlock</h5>
-							<p class="card-text">USB remote unlock service <br>49.99usd</p>
-							<a href="services.html" class="btn btn-primary">Buy Now</a>
-						  </div>
+										  <div class="card-body">
+												  <form class="add-to-cart" action="cart.html" method="post">
+															<h5 class="card-title">Samsung s10 network unlock</h5>
+															<p class="card-text">USB remote unlock service <br>49.99usd</p>
+															<!-- <a href="services.html" class="btn btn-primary">Add to cart</a> -->
+															<!--  <button class="cart p-add">Add To shiity Cart</button> -->
+														
+																	<div>
+																		<label for="qty-1">Quantity</label>
+																		<input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+																	</div>
+																		<div>
+																		<p class="product-price"> 29.99</p>
+																	</div>
+																<p><input type="submit" value="Add to cart" class="btn" /></p>
+
+												
+													</form>
+										</div>
+						
+						
+						
+						
 						</div>
 			
 			
